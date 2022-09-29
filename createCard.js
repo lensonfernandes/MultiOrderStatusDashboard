@@ -27,7 +27,7 @@ card_body_div.appendChild(cardTitle);
 
 const cardText = document.createElement("p");
 cardText.classList = "card-text"
-cardText.innerText = "Burger -1 No"
+cardText.innerText = `Order Combo No: ${Math.ceil(Math.random()*7) }`
 card_body_div.appendChild(cardText);
 
 const billButton = document.createElement("button")
