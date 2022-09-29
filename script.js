@@ -1,6 +1,6 @@
 
 
-
+let numberOfOrders = 0
 
     //   <div class="container"> 
 
@@ -15,8 +15,12 @@
     //    </div>
 
     let executeOrder = () => {
+        numberOfOrders++
+	let todaysDate = new Date()
+	let orderId = `MP${todaysDate.getFullYear()}${todaysDate.getMonth() + 1}${todaysDate.getDate()}0000${numberOfOrders}`
 
-        let orderId = document.getElementById("orderId").value;
+
+        // let orderId = document.getElementById("orderId").value;
 
         createCard(orderId);
         orderStatus(orderId);
