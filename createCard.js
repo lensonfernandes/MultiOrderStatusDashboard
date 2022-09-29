@@ -32,7 +32,7 @@ card_body_div.appendChild(cardText);
 
 const billButton = document.createElement("button")
 billButton.classList = "btn btn-primary m-3"
-billButton.innerText = "Bill Amount: $12"
+billButton.innerText = `Bill Amount: $${Math.ceil(Math.random()*50) + 10 }`
 card_body_div.appendChild(billButton);
 
 const statusButton = document.createElement("button")
