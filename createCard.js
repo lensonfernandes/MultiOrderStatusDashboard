@@ -13,7 +13,7 @@ document.getElementById("card-container").appendChild(cardOverallDiv);
 // card.style.width = "18rem";
 // card.style.textAlign = "center"
 
-cardOverallDiv.innerHTML = '<div class="card card1 m-2" style="width:18rem; text-align: center;"><img class="card-img-top" src="./burger.jpg" alt="Card image cap"></img>'
+cardOverallDiv.innerHTML = '<div class="card card1 m-2" style="width:18rem; text-align: center;"><img class="card-img-top" src="./grocer.jpg" alt="Card image cap"></img>'
 
 const card_body_div =  document.createElement("div")
 card_body_div.classList = "card-body"
